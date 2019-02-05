@@ -11,7 +11,7 @@ lowercase = "abcdefghijklmnopqrstuvwxyz"
 uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 nums = "0123456789"
 symbols = "!?@#$%^&*()_-+="
-passw_leng = 10
+passw_leng = int(input("Password length: "))
 passw = "".join(random.sample(lowercase+uppercase+nums+symbols, passw_leng))
 
 print(passw)
