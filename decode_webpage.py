@@ -11,6 +11,6 @@ for line in soup.find_all(class_="css-d59ole esl82me2"):
     if line.a:
         print(line.a.text.replace("\n", " ").strip())
     else:
-        print(line.contents[0].strip())=
+        print(line.contents[0].strip())
 
 
