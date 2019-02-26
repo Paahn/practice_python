@@ -14,5 +14,5 @@ symbols = "!?@#$%^&*()_-+="
 passw_leng = int(input("Password length: "))
 passw = "".join(random.sample(lowercase+uppercase+nums+symbols, passw_leng))
 
-print(passw)
+print("Here is you new password: ".format(passw))
 
