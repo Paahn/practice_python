@@ -39,5 +39,5 @@ for key in birthdays:
 while True:
     answer = input("Whose birthday do you want to look up?")
     for key in birthdays:
-        if answer == key:
+        if answer in key:
             print("{}'s birthday is {}.".format(key, birthdays[key]))
